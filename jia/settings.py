@@ -25,7 +25,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = "qt56va-^th6=+i8&x1tg2h#^2jbpva*n))61)($gi+5zmp&hb_"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # Application definition
 
@@ -142,10 +142,4 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # Activate Django-Heroku.
 django_heroku.settings(locals())
 
-CORS_ORIGIN_ALLOW_ALL = True
-CORS_ORIGIN_WHITELIST = (
-    'http://localhost:4200',
-    'http://127.0.0.1:4200',
-    'https://localhost:4200',
-    'https://127.0.0.1:4200',
-)
+#
