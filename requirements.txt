@@ -76,7 +76,7 @@ cmdtest==0.32
 configparser==3.5.0
 crcmod==1.7
 cryptography==2.1.4
-Django==1.11.15
+Django==2.2.8
 django-allauth==0.36.0
 django-bulma==0.5.1
 django-categories==1.6
